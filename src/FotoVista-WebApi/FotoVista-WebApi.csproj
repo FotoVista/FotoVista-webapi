@@ -16,4 +16,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FotoVista.Service\FotoVista.Service.csproj" />
+  </ItemGroup>
+
 </Project>
