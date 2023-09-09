@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoVista.DataAccess", "src\FotoVista.DataAccess\FotoVista.DataAccess.csproj", "{6DDCF9AA-9D3D-4824-AC76-950D80D627C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoVista.Domain", "src\FotoVista.Domain\FotoVista.Domain.csproj", "{0FB30F4F-C968-4207-A941-D29759194236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoVista.Service", "src\FotoVista.Service\FotoVista.Service.csproj", "{38FF2D0C-2D5B-4783-9FD3-7D539EE0F9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoVista-WebApi", "src\FotoVista-WebApi\FotoVista-WebApi.csproj", "{7D78F8D7-3899-4B06-B979-E28E8A7F369F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DDCF9AA-9D3D-4824-AC76-950D80D627C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDCF9AA-9D3D-4824-AC76-950D80D627C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDCF9AA-9D3D-4824-AC76-950D80D627C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDCF9AA-9D3D-4824-AC76-950D80D627C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB30F4F-C968-4207-A941-D29759194236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB30F4F-C968-4207-A941-D29759194236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB30F4F-C968-4207-A941-D29759194236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB30F4F-C968-4207-A941-D29759194236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FF2D0C-2D5B-4783-9FD3-7D539EE0F9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FF2D0C-2D5B-4783-9FD3-7D539EE0F9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FF2D0C-2D5B-4783-9FD3-7D539EE0F9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FF2D0C-2D5B-4783-9FD3-7D539EE0F9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D78F8D7-3899-4B06-B979-E28E8A7F369F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D78F8D7-3899-4B06-B979-E28E8A7F369F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D78F8D7-3899-4B06-B979-E28E8A7F369F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D78F8D7-3899-4B06-B979-E28E8A7F369F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8B173C2-2476-4BC5-B7D0-7CDE72C4BD07}
+	EndGlobalSection
+EndGlobal
