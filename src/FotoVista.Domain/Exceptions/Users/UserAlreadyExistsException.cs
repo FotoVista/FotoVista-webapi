@@ -9,6 +9,6 @@ public class UserAlreadyExistsException : AlreadyExistsExcaption
 
 	public UserAlreadyExistsException(string phone)
 	{
-		TitleMessage = "This phone is already registered";
+		TitleMessage = "This email is already registered";
 	}
 }
