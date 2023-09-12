@@ -1,9 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using FotoVista.Domain.Entity.Posts;
-using FotoVista.Domain.Entity.Hashtags;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FotoVista.Domain.Entity.PostHashtags;
+namespace FotoVista.Domain.Entity;
 
 public class PostHashtagEntity
 {

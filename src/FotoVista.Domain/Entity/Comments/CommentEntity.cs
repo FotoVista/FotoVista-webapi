@@ -1,9 +1,7 @@
-﻿using FotoVista.Domain.Entity.Posts;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using FotoVista.Domain.Entity.Users;
 
-namespace FotoVista.Domain.Entity.Comments;
+namespace FotoVista.Domain.Entity;
 
 public class CommentEntity
 {

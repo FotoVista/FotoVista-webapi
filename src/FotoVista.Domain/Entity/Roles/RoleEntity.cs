@@ -1,7 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FotoVista.Domain.Entity.Roles;
+namespace FotoVista.Domain.Entity;
 
 public class RoleEntity
 {

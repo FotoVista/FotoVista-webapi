@@ -1,8 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using FotoVista.Domain.Entity.Users;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FotoVista.Domain.Entity.Followers;
+namespace FotoVista.Domain.Entity;
 
 public class FollowerEntity
 {

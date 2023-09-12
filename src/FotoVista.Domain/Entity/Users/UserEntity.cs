@@ -1,8 +1,7 @@
-﻿using FotoVista.Domain.Entity.Roles;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FotoVista.Domain.Entity.Users;
+namespace FotoVista.Domain.Entity;
 
 public class UserEntity
 {
