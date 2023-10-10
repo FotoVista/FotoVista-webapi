@@ -3,11 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FotoVista.Domain.Entity;
 
-public class FollowerEntity
+public class FollowerEntity : Auditable
 {
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public long Id { get; set; }
 
     [Required]
     public long UserId { get; set; }
