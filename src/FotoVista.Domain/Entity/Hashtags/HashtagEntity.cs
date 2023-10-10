@@ -3,12 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FotoVista.Domain.Entity;
 
-public class HashtagEntity
+public class HashtagEntity : Auditable
 {
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public long Id { get; set; }
-
     [Required]
     [StringLength(25)]
     [Column("name")]
