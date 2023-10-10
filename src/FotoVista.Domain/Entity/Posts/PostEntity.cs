@@ -3,12 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FotoVista.Domain.Entity;
 
-public class PostEntity
+public class PostEntity : Auditable
 {
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public long Id { get; set; }
-
     [Required]
     [Column("user_id")]
     public long UserId { get; set; }
