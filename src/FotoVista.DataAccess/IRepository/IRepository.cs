@@ -1,6 +1,5 @@
 ﻿using FotoVista.Domain.Entity;
 using System.Linq.Expressions;
-using System.Security.AccessControl;
 
 namespace FotoVista.DataAccess.IRepository;
 
